@@ -1,0 +1,31 @@
+<table class="zTbl">
+
+    <thead>
+
+        <tr>
+
+            <th>Name</th>
+
+            <th>Location</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <?php for ($i = 0; $i < count($data); $i++) { ?>
+
+            <tr class="<?php echo ($i % 2 == 0) ? 'even' : 'odd'; ?>">
+
+                <td><?php echo $data[$i]['name']; ?></td>
+
+                <td><?php echo $data[$i]['location']; ?></td>
+
+            </tr>
+
+        <?php } ?>
+
+    </tbody>
+
+</table>

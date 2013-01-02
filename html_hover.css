@@ -1,0 +1,28 @@
+body{
+	text-align=center;
+}
+#box{
+	display:block;
+	margin:1px auto;
+	padding:10px;
+	color:#ffffff;
+	-webkit-border-radius: 10px;
+	opacity:0.4;
+	background:blue;
+	width:100px;
+	height:50px;
+	font-size:15px;
+	-webkit-transition:-webkit-transform 0.5s, opacity 1s, background 1s, width 1s, height 1s, font-size 1s;
+}
+#box:hover{
+	-webkit-transform: rotate(360deg);
+	opacity: 1;
+	background: blue;
+	padding:40px;
+	width:100px;
+	height:75px;
+	font-size:25px;
+}
+#link{
+	color:white;
+}
